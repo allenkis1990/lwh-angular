@@ -1,0 +1,36 @@
+<div class="m-player" ng-style="action_contentStyle">
+    <div class="prev animated"
+         ng-show="hasPrev"
+         ng-class="{fadeOutUp: canPrev}"><a href="#" ng-click="events.prevLesson($event)"
+                                                                  class="pl-ico"></a><span>上一个</span>
+    </div>
+    <div class="next animated"
+         ng-show="hasNext"
+         ng-class="{fadeOutDown: canPrev}"><a href="#" ng-click="events.nextLesson($event)"
+                                                                    class="pl-ico"></a><span>下一个</span>
+    </div>
+    <a href="#" class="pl-ico return" ng-click="events.backToLessonPage($event)"><span class="pl-ico"></span>返回课程页面</a>
+    <div class="line"></div>
+
+    <div ng-if="loading_time">
+        <div class="loading">
+            <img src="images/player-loading.gif" alt="加载中...">
+            <span>努力奔跑中，马上就好！</span>
+        </div>
+    </div>
+
+    <div>
+        <div class="title">
+            <span class="pl-ico chapter">章节{{currentPlayInfo.chapter.$index + 1}}</span>
+            <span class="pl-ico num">{{currentPlayInfo.courseWare.$index + 1}}</span>
+            <span class="tit-txt">{{currentPlayInfo.media.name}}</span>
+        </div>
+        <div ui-view></div>
+    </div>
+</div>
+
+<div player-side
+     available-time="availableTime"
+     current-play-info="currentPlayInfo"
+     ng-style="action_sideStyle"
+     lesson="lesson"></div>

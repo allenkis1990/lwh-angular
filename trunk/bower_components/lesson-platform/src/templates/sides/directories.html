@@ -1,0 +1,54 @@
+<div class="line"></div>
+<ul class="m-catalog">
+    <!-- 观看当前章节时添加 current -->
+    <li ng-repeat="chapter in lesson.chapterList"
+        ng-init="chapter.$index=$index"
+        ng-class="{current: chapter.$$hashKey===currentPlayInfo.chapter.$$hashKey}">
+        <div class="chapter  fadeInRight">
+            <span class="txt">章节</span>
+            <span class="pl-ico num" ng-bind="$index+1"></span>
+            <span class="tit" ng-bind="chapter.name"></span>
+        </div>
+        <ul class="ul-course">
+            <!-- 观看当前课件时添加 current -->
+            <li ng-repeat="courseWare in chapter.courseWareList"
+                class=" fadeInRight"
+                style="animation-delay: {{$index/ 20}}s;"
+                ng-click="events.playSelect($event, chapter, courseWare, courseWare.mediaList[0], $parent.$index, $index)"
+                ng-class="{current: currentPlayInfo.media.id === courseWare.mediaList[0].id,'can-not-play': courseWare.mediaList[0].allowPlayTimes &&courseWare.mediaList[0].alreadyPlayTime >= courseWare.mediaList[0].time * courseWare.mediaList[0].allowPlayTimes}">
+                                    <span class="pro-num animated fadeInLeft"
+                                          ng-if="$stateParams.playMode=='learn'"
+                                          ng-bind="courseWare.mediaList[0].schedule + '%'"></span>
+                                    <span class="pro-num animated fadeInLeft"
+                                          ng-if="$stateParams.playMode=='previewLesson'">预览</span>
+                                    <span class="pro-num animated fadeInLeft"
+                                          ng-if="$stateParams.playMode=='listen'">试听</span>
+
+                                <span class="pl-ico pro"
+                                      ng-class="{
+                                      pro100: courseWare.mediaList[0].schedule==0,
+                                      pro75: courseWare.mediaList[0].schedule>0 && courseWare.mediaList[0].schedule <=50,
+                                      pro25: courseWare.mediaList[0].schedule>50 && courseWare.mediaList[0].schedule <=75,
+                                      pro0: courseWare.mediaList[0].schedule>75 && courseWare.mediaList[0].schedule <=100}">
+
+                                </span>
+                <span class="tit animated fadeInRight" ng-bind="courseWare.mediaList[0].name" title="{{courseWare.mediaList[0].name}}"></span>
+                                <span class="time animated fadeInRight"
+                                      ng-bind="courseWare.mediaList[0].time | secondFormat : courseWare.mediaList[0].type"></span>
+                <span class="pl-ico type-{{courseWare.mediaList[0].type===courseWareType.pdf?'t':'v'}} animated fadeInRight"></span>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<ul class="m-catalog">
+    <!-- 观看当前章节时添加 current -->
+    <li ng-repeat="test in lesson.tests">
+        <div class="chapter  fadeInRight">
+            <span class="txt">测验</span>
+            <span class="pl-ico num"></span>
+            <span class="tit" style="cursor: pointer;" ng-click="events.goTest($event, test)"
+                  ng-bind="test.name"></span>
+        </div>
+    </li>
+</ul>

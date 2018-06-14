@@ -1,0 +1,889 @@
+{
+    "_id" : "5ac57a50-2f02-46e8-b46e-ce38cdb0ed76",
+    "_class" : "com.fjhb6.ability.exam.v1.commons.model.question.OpinionQuestion",
+    "correct" : true,
+    "answersResult" : false,
+    "platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+    "platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+    "projectId" : "402881c7547ac8a801547ac8bd7a0000",
+    "subProjectId" : "402881c7547ac8a801547ac8be460002",
+    "unitId" : "-1",
+    "organizationId" : "-1",
+    "questionType" : 1,
+    "topic" : "11",
+    "questionRange" : 1,
+    "sourceType" : 0,
+    "score" : 0,
+    "answersResultState" : 0,
+    "libraryId" : "-1",
+    "tagMap" : {
+
+    },
+    "answered" : false,
+    "marked" : false,
+    "answersScore" : 0,
+    "difficulty" : 0,
+    "year" : 0,
+    "examObjects" : [
+        {
+            "objectId" : "463ac91bd8cc477d88de13a9e16635ff",
+            "type" : "2",
+            "_class" : "com.fjhb6.ability.exam.v1.south.service.dto.ExamObjectDto"
+        }
+    ],
+    "enabled" : true,
+    "createTime" : ISODate("2016-05-17T03:23:56.773Z"),
+    "createUserId" : "402881c7547ad16d01547ad179270000",
+    "lastChangeTime" : ISODate("2016-05-17T03:23:56.776Z"),
+    "state" : 0,
+    "mode" : 2,
+    "popQuestion" : false
+},
+{
+"_id" : "650fe70e-3dfa-4016-a99f-261fa59de579",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.OpinionQuestion",
+"correct" : true,
+"answersResult" : false,
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547ac8a801547ac8bd7a0000",
+"subProjectId" : "402881c7547ac8a801547ac8be460002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 1,
+"topic" : "1",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "463ac91bd8cc477d88de13a9e16635ff",
+"type" : "2",
+"_class" : "com.fjhb6.ability.exam.v1.south.service.dto.ExamObjectDto"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-16T07:07:34.479Z"),
+"createUserId" : "402881c7547ad16d01547ad179270000",
+"lastChangeTime" : ISODate("2016-05-16T07:07:34.490Z"),
+"state" : 0,
+"mode" : 2,
+"popQuestion" : false
+},
+{
+"_id" : "6c215d02-3bc8-4076-8757-3be9caca9350",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.OpinionQuestion",
+"correct" : false,
+"answersResult" : false,
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547ac8a801547ac8bd7a0000",
+"subProjectId" : "402881c7547ac8a801547ac8be460002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 1,
+"topic" : "1+1>2",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "a91cb51a206248b3a18a1be17cb669fd",
+"type" : "2",
+"_class" : "com.fjhb6.ability.exam.v1.south.service.dto.ExamObjectDto"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-17T03:20:32.404Z"),
+"createUserId" : "402881c7547ad16d01547ad179270000",
+"lastChangeTime" : ISODate("2016-05-17T03:20:32.415Z"),
+"state" : 0,
+"mode" : 2,
+"popQuestion" : false
+},
+{
+"_id" : "94a42d52-5835-4f31-a66a-53d805efe7a5",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.OpinionQuestion",
+"correct" : false,
+"answersResult" : false,
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547ac8a801547ac8bd7a0000",
+"subProjectId" : "402881c7547ac8a801547ac8be460002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 1,
+"topic" : "1+1>2",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "a91cb51a206248b3a18a1be17cb669fd",
+"type" : "2",
+"_class" : "com.fjhb6.ability.exam.v1.south.service.dto.ExamObjectDto"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-17T03:21:47.379Z"),
+"createUserId" : "402881c7547ad16d01547ad179270000",
+"lastChangeTime" : ISODate("2016-05-17T03:21:47.398Z"),
+"state" : 0,
+"mode" : 2,
+"popQuestion" : false
+},
+{
+"_id" : "4e831703-c82d-479e-aade-4058dec1721f",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.OpinionQuestion",
+"correct" : true,
+"answersResult" : false,
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547ac8a801547ac8bd7a0000",
+"subProjectId" : "402881c7547ac8a801547ac8be460002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 1,
+"topic" : "11",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "463ac91bd8cc477d88de13a9e16635ff",
+"type" : "2",
+"_class" : "com.fjhb6.ability.exam.v1.south.service.dto.ExamObjectDto"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-17T03:23:41.280Z"),
+"createUserId" : "402881c7547ad16d01547ad179270000",
+"lastChangeTime" : ISODate("2016-05-17T03:23:41.283Z"),
+"state" : 0,
+"mode" : 2,
+"popQuestion" : false
+},
+{
+"_id" : "efd5f855-c05a-427b-8012-fe5358fa7fce",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.OpinionQuestion",
+"correct" : true,
+"answersResult" : false,
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547ac8a801547ac8bd7a0000",
+"subProjectId" : "402881c7547ac8a801547ac8be460002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 1,
+"topic" : "11",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "463ac91bd8cc477d88de13a9e16635ff",
+"type" : "2"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-17T03:25:16.565Z"),
+"createUserId" : "402881c7547ad16d01547ad179270000",
+"lastChangeTime" : ISODate("2016-05-17T03:25:16.571Z"),
+"state" : 1,
+"mode" : 2,
+"popQuestion" : false
+},
+{
+"_id" : "108b2545-b9cd-4f90-86bb-3e83b2f070af",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.OpinionQuestion",
+"correct" : false,
+"answersResult" : false,
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547ac8a801547ac8bd7a0000",
+"subProjectId" : "402881c7547ac8a801547ac8be460002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 1,
+"topic" : "1+1>2",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "a91cb51a206248b3a18a1be17cb669fd",
+"type" : "2"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-17T03:26:06.375Z"),
+"createUserId" : "402881c7547ad16d01547ad179270000",
+"lastChangeTime" : ISODate("2016-05-17T03:26:06.378Z"),
+"state" : 1,
+"mode" : 2,
+"popQuestion" : false
+},
+{
+"_id" : "b3176c0e-dbd3-454a-b1c0-46061a20054f",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.OpinionQuestion",
+"correct" : false,
+"answersResult" : false,
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547ac8a801547ac8bd7a0000",
+"subProjectId" : "402881c7547ac8a801547ac8be460002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 1,
+"topic" : "1+1>3",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "a91cb51a206248b3a18a1be17cb669fd",
+"type" : "2"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-17T03:26:16.634Z"),
+"createUserId" : "402881c7547ad16d01547ad179270000",
+"lastChangeTime" : ISODate("2016-05-17T03:27:11.850Z"),
+"state" : 1,
+"mode" : 2,
+"popQuestion" : false
+},
+{
+"_id" : "cc9df64d-b402-425a-8a08-f8c59d157376",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.RadioQuestion",
+"configurationItems" : [
+{
+"id" : "32055704eee746738756c2ab6cd0dbc4",
+"content" : "兴业银行"
+},
+{
+"id" : "d33cd5ed5acb4e0b97e06e9f826f6fdb",
+"content" : "浦发银行"
+},
+{
+"id" : "7958ce5f21e749deb1caaaa0214dba32",
+"content" : "中国银行1111"
+},
+{
+"id" : "14fbb5552ba845d59957ab5ea1f26702",
+"content" : "光大银行"
+}
+],
+"correctAnswer" : "7958ce5f21e749deb1caaaa0214dba32",
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547ac8a801547ac8bd7a0000",
+"subProjectId" : "402881c7547ac8a801547ac8be460002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 2,
+"topic" : "以下属于四大银行之一的银行?1111",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "a91cb51a206248b3a18a1be17cb669fd",
+"type" : "2"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-17T03:28:58.955Z"),
+"createUserId" : "402881c7547ad16d01547ad179270000",
+"lastChangeTime" : ISODate("2016-05-26T01:57:25.015Z"),
+"state" : 0,
+"mode" : 2,
+"popQuestion" : false
+},
+{
+"_id" : "1173b89e-5d78-4b14-8993-ad4a95cef4cd",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.OpinionQuestion",
+"correct" : true,
+"answersResult" : false,
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547ac8a801547ac8bd7a0000",
+"subProjectId" : "402881c7547ac8a801547ac8be460002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 1,
+"topic" : "五一放假三天？?",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "6c9a23f22b624c0ab19a49df42473b91",
+"type" : "2",
+"_class" : "com.fjhb6.ability.exam.v1.south.service.dto.ExamObjectDto"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-17T03:31:08.945Z"),
+"createUserId" : "402881c7547ad16d01547ad179270000",
+"lastChangeTime" : ISODate("2016-05-25T12:03:07.857Z"),
+"state" : 0,
+"mode" : 2,
+"popQuestion" : false
+},
+{
+"_id" : "4ff0b881-b241-4c84-bee2-e25bc6c951dc",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.RadioQuestion",
+"configurationItems" : [
+{
+"id" : "e46f2a9389a642f2b9c0d97c57663d67",
+"content" : "5"
+},
+{
+"id" : "091a75da1af942b49bfba2397bebf1b7",
+"content" : "6"
+},
+{
+"id" : "a1c09586016847c6afa2660cc5b626d7",
+"content" : "8"
+},
+{
+"id" : "d5306cde71164e02a880ade5acb67fc7",
+"content" : "10"
+},
+{
+"id" : "0602e62f7b604ecfb12d6fb2a563bd17",
+"content" : "9"
+}
+],
+"correctAnswer" : "091a75da1af942b49bfba2397bebf1b7",
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547ac8a801547ac8bd7a0000",
+"subProjectId" : "402881c7547ac8a801547ac8be460002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 2,
+"topic" : "四个选项中，最喜欢哪个数字",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "6c9a23f22b624c0ab19a49df42473b91",
+"type" : "2"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-17T03:31:33.918Z"),
+"createUserId" : "402881c7547ad16d01547ad179270000",
+"lastChangeTime" : ISODate("2016-05-17T03:32:18.011Z"),
+"state" : 1,
+"mode" : 2,
+"popQuestion" : false
+},
+{
+"_id" : "d37ed68a-da06-43c4-8f15-ee173081c78a",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.MultipleQuestion",
+"configurationItems" : [
+{
+"id" : "959e9b6c71cc4ad191b7ef580b47bf47",
+"content" : "修改公司章程"
+},
+{
+"id" : "619a3b2e89d64c23bb0f107cd48f31a3",
+"content" : "减少注册资本"
+},
+{
+"id" : "46427360818d485fb4102b078b416f73",
+"content" : "更换公司董事"
+},
+{
+"id" : "3315b4ddafbb41db8b08f8314c5bf286",
+"content" : "变更公司形式"
+}
+],
+"correctAnswers" : [
+"959e9b6c71cc4ad191b7ef580b47bf47",
+"619a3b2e89d64c23bb0f107cd48f31a3",
+"3315b4ddafbb41db8b08f8314c5bf286"
+],
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547ac8a801547ac8bd7a0000",
+"subProjectId" : "402881c7547ac8a801547ac8be460002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 3,
+"topic" : "根据《公司法》的规定，对下列事项作出的决议中，有限责任公司股东会会议必须经代表2/3以上表决权的股东通过的有（ABD）。",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "6c9a23f22b624c0ab19a49df42473b91",
+"type" : "2"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-17T03:33:21.943Z"),
+"createUserId" : "402881c7547ad16d01547ad179270000",
+"lastChangeTime" : ISODate("2016-05-25T11:53:03.142Z"),
+"state" : 0,
+"mode" : 2,
+"popQuestion" : false
+},
+{
+"_id" : "ee17ffe7-61ca-48e9-94c2-f585a0f5cce0",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.OpinionQuestion",
+"correct" : false,
+"answersResult" : false,
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547ac8a801547ac8bd7a0000",
+"subProjectId" : "402881c7547ac8a801547ac8be460002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 1,
+"topic" : "福州是三大火炉城市之一",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "a91cb51a206248b3a18a1be17cb669fd",
+"type" : "2",
+"_class" : "com.fjhb6.ability.exam.v1.south.service.dto.ExamObjectDto"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-17T03:39:06.487Z"),
+"createUserId" : "402881c7547ad16d01547ad179270000",
+"lastChangeTime" : ISODate("2016-05-17T06:45:24.578Z"),
+"state" : 0,
+"mode" : 2,
+"popQuestion" : false
+},
+{
+"_id" : "282ecf91-d222-41ae-bb78-a3b447fe1aaf",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.OpinionQuestion",
+"correct" : false,
+"answersResult" : false,
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547ac8a801547ac8bd7a0000",
+"subProjectId" : "402881c7547ac8a801547ac8be460002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 1,
+"topic" : "判断题？",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "463ac91bd8cc477d88de13a9e16635ff",
+"type" : "2",
+"_class" : "com.fjhb6.ability.exam.v1.south.service.dto.ExamObjectDto"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-17T03:58:15.030Z"),
+"createUserId" : "402881c7547ad16d01547ad179270000",
+"lastChangeTime" : ISODate("2016-05-17T06:46:02.611Z"),
+"state" : 0,
+"mode" : 2,
+"popQuestion" : false
+},
+{
+"_id" : "f25a49b3-3a36-48f7-95f1-f2db3d87561d",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.OpinionQuestion",
+"correct" : true,
+"answersResult" : false,
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547ac8a801547ac8bd7a0000",
+"subProjectId" : "402881c7547ac8a801547ac8be460002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 1,
+"topic" : "rr",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "a91cb51a206248b3a18a1be17cb669fd",
+"type" : "2"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-17T06:24:18.461Z"),
+"createUserId" : "402881c7547ad16d01547ad179270000",
+"lastChangeTime" : ISODate("2016-05-17T06:24:18.472Z"),
+"state" : 1,
+"mode" : 2,
+"popQuestion" : false
+},
+{
+"_id" : "60eede16-349c-441e-abfe-fcba7fc061fc",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.OpinionQuestion",
+"correct" : true,
+"answersResult" : false,
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547ac8a801547ac8bd7a0000",
+"subProjectId" : "402881c7547ac8a801547ac8be460002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 1,
+"topic" : "d",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "463ac91bd8cc477d88de13a9e16635ff",
+"type" : "2"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-17T06:24:31.205Z"),
+"createUserId" : "402881c7547ad16d01547ad179270000",
+"lastChangeTime" : ISODate("2016-05-17T06:24:31.210Z"),
+"state" : 1,
+"mode" : 2,
+"popQuestion" : false
+},
+{
+"_id" : "a057b737-9e15-4ba7-90af-bd77557b8a13",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.OpinionQuestion",
+"correct" : true,
+"answersResult" : false,
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547ac8a801547ac8bd7a0000",
+"subProjectId" : "402881c7547ac8a801547ac8be460002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 1,
+"topic" : "33",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "a91cb51a206248b3a18a1be17cb669fd",
+"type" : "2"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-17T06:45:29.442Z"),
+"createUserId" : "402881c7547ad16d01547ad179270000",
+"lastChangeTime" : ISODate("2016-05-17T06:45:29.447Z"),
+"state" : 1,
+"mode" : 2,
+"popQuestion" : false
+},
+{
+"_id" : "3eda4fc5-e00d-423e-a2b9-3b702500c97c",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.MultipleQuestion",
+"configurationItems" : [
+{
+"id" : "b4f921005e63471692f69352c2030ffc",
+"content" : "a"
+},
+{
+"id" : "6529cf9eb1e0475484b997958dd97b96",
+"content" : "bv"
+},
+{
+"id" : "0aaa778794ea456c9e8b151b4f007c06",
+"content" : "c"
+},
+{
+"id" : "1a765bde018b4758987a04dd368592f1",
+"content" : "d"
+}
+],
+"correctAnswers" : [
+"b4f921005e63471692f69352c2030ffc",
+"6529cf9eb1e0475484b997958dd97b96",
+"0aaa778794ea456c9e8b151b4f007c06"
+],
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547ac8a801547ac8bd7a0000",
+"subProjectId" : "402881c7547ac8a801547ac8be460002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 3,
+"topic" : "abc",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "a91cb51a206248b3a18a1be17cb669fd",
+"type" : "2"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-17T11:05:42.940Z"),
+"createUserId" : "402881c7547ad16d01547ad179270000",
+"lastChangeTime" : ISODate("2016-05-17T11:05:42.950Z"),
+"state" : 1,
+"mode" : 2,
+"popQuestion" : false
+},
+{
+"_id" : "a9da800c-7b67-4424-a7d2-389091209bff",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.OpinionQuestion",
+"correct" : true,
+"answersResult" : false,
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547ac8a801547ac8bd7a0000",
+"subProjectId" : "402881c7547ac8a801547ac8be460002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 1,
+"topic" : "test",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "6c9a23f22b624c0ab19a49df42473b91",
+"type" : "2"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-17T12:47:36.846Z"),
+"createUserId" : "402881c7547ad16d01547ad179270000",
+"lastChangeTime" : ISODate("2016-05-17T12:47:36.866Z"),
+"state" : 1,
+"mode" : 2,
+"popQuestion" : false
+},
+{
+"_id" : "e4f9a9b0-0f1d-459a-96fc-bfb3067bd800",
+"_class" : "com.fjhb6.ability.exam.v1.commons.model.question.OpinionQuestion",
+"correct" : true,
+"answersResult" : false,
+"platformId" : "2c9181e54fee38a9014ff2ad0dc5004e",
+"platformVersionId" : "2c9181e54fee3877014ff2a7fdde0048",
+"projectId" : "402881c7547a7c9701547a7cc9230000",
+"subProjectId" : "402881c7547a7c9701547a7d0f210002",
+"unitId" : "-1",
+"organizationId" : "-1",
+"questionType" : 1,
+"topic" : "这个是一个判断题",
+"questionRange" : 1,
+"sourceType" : 0,
+"score" : 0,
+"answersResultState" : 0,
+"libraryId" : "-1",
+"tagMap" : {
+
+},
+"answered" : false,
+"marked" : false,
+"answersScore" : 0,
+"difficulty" : 0,
+"year" : 0,
+"examObjects" : [
+{
+"objectId" : "41f944d48a1b420f868db918c5f298c9",
+"type" : "2",
+"_class" : "com.fjhb6.ability.exam.v1.south.service.dto.ExamObjectDto"
+}
+],
+"enabled" : true,
+"createTime" : ISODate("2016-05-19T04:00:50.985Z"),
+"createUserId" : "402881c7547ab6f201547ab6fcaf0000",
+"lastChangeTime" : ISODate("2016-05-19T04:00:50.988Z"),
+"state" : 0,
+"mode" : 2,
+"popQuestion" : false
+}

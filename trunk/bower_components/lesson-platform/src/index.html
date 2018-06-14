@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html class="lt-ie9">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <title id="_the_title"></title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="styles/webstyle.css">
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link rel="bookmark" href="/favicon.ico"/>
+    <link type="image/icon" href="/favicon.ico"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bower_components/player/dist/player.css">
+
+    <link rel="stylesheet" href="../bower_components/cameras/dist/styles/cameras.css">
+</head>
+<body>
+<div loading-status-bar ng-if="systemLoading"></div>
+<div ui-view class="player-box {{containerClass}}"></div>
+</body>
+<script src="../bower_components/requirejs/require.js" data-main="js/main.config.js"></script>
+</html>

@@ -1,0 +1,28 @@
+<div class="player-bd">
+    <div id="particles" particles-bg></div>
+    <div class="player-content-box" id="single_player_play_container">
+
+    </div>
+</div>
+<div ng-show="listenEnd" style="position: absolute;
+    background: rgba(0, 0, 0, 0.72);
+    top: 90px;
+    left: 20px;
+    right: 60px;
+    z-index: 11111;
+    bottom: 50px;">
+    <div class="message">
+        试听结束
+    </div>
+</div>
+
+<div ng-show="errorInit.status" style="position: absolute;
+    background: rgba(0, 0, 0, 0.72);
+    top: 90px;
+    left: 20px;
+    right: 60px;
+    z-index: 11111;
+    bottom: 50px;">
+    <div class="message" ng-bind="errorInit.message">
+    </div>
+</div>

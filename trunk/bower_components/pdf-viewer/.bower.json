@@ -1,0 +1,33 @@
+{
+  "name": "pdf-viewer",
+  "version": "1.0.0",
+  "authors": [
+    "wengpengfeijava <466077335@qq.com>"
+  ],
+  "description": "pdf播放预览组件",
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pdfjs-dist": "^1.5.322"
+  },
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.0",
+    "commit": "121"
+  },
+  "_source": "http://192.168.1.81/svn/prometheus/开发库/04集成与测试/代码与实现/pdf-viewer",
+  "_target": "^1.0.0",
+  "_originalSource": "pdf-viewer"
+}

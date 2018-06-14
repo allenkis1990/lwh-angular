@@ -1,0 +1,27 @@
+<div class="m-player-side">
+    <div class="side-cont">
+        <div class="info">
+            <div class="info-tit" ng-bind="lesson.name"></div>
+            <p>主讲老师：{{lesson.teacher.join('，')}}</p>
+            <p>共{{lesson.numbers}}讲</p>
+            <div ng-show="availableTime">有效学习时长 {{availableTime}}</div>
+            <div class="process">
+                <span class="current" ng-style="{width: lesson.schedule + '%'}"></span>
+                <div class="tips">已学{{lesson.schedule}}%</div>
+            </div>
+        </div>
+
+        <div components class="side-bd"></div>
+
+    </div>
+    <div class="tab-tit">
+        <a href="" ng-repeat="sideNav in directorys"
+           ng-click="events.toggleDirectory($event, sideNav)"
+           ng-style="sideNav.className ? '' : {padding: '5px'}"
+           ng-class="{current: currentDirectory.name === sideNav.name}"
+           data-directory-info="{{sideNav.name}}-{{sideNav.templateUrl}}">
+            <span ng-if="sideNav.className" class="pl-ico {{sideNav.className}}"></span>
+            {{sideNav.title}}
+        </a>
+    </div>
+</div>

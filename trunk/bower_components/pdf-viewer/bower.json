@@ -1,0 +1,24 @@
+{
+    "name": "pdf-viewer",
+    "version": "1.0.0",
+    "authors": [
+        "wengpengfeijava <466077335@qq.com>"
+    ],
+    "description": "pdf播放预览组件",
+    "moduleType": [
+        "amd",
+        "node"
+    ],
+    "license": "MIT",
+    "homepage": "",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "pdfjs-dist": "^1.5.322"
+    }
+}

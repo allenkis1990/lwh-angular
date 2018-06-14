@@ -1,0 +1,20 @@
+<div class="m-player" style="right: 0">
+    <!--<a href="#" class="pl-ico return" ng-click="events.backToLessonPage($event)"><span class="pl-ico"></span>返回课程页面</a>-->
+    <div class="line"></div>
+
+    <div ng-if="loading_time">
+        <div class="loading">
+            <img src="images/player-loading.gif" alt="加载中...">
+            <span>努力奔跑中，马上就好！</span>
+        </div>
+    </div>
+
+    <div>
+        <div class="title">
+            <span class="pl-ico chapter">预览</span>
+            <span class="pl-ico num">o</span>
+            <span class="tit-txt">{{currentPlayInfo.courseWare.name}}</span>
+        </div>
+        <div ui-view></div>
+    </div>
+</div>

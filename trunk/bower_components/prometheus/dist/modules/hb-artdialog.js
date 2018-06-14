@@ -1,0 +1,8 @@
+/**
+ * prometheus - 普罗米修斯
+ * @author 
+ * @version v1.0.8
+ * @link 
+ * @license MIT
+ */
+define(["angular","artDialog"],function(t,e){"use strict";function n(t){return this.init(t)}var i={},o=0;n.prototype={dialogConfig:{okValue:"确定",cancelValue:"取消"},extend:function(t,e){for(var n in e)t.hasOwnProperty(n)||(t[n]=e[n])},init:function(t){var n=this;if(this.extend(t,this.dialogConfig),t.time){var i=t.onclose;t.onclose=function(){n.clearTimerById(this.name),i&&i()}}var r=e.apply(this,arguments),a=$(r.node);if(a.attr("data-dialog-type",t.type).addClass("art-"+t.type),t.visible&&r.show(),t.modal&&r.showModal(),r.name="ngDialog_"+o++,t.time){var c=this.timerClose(1,function(){t.time--,0===t.time?r.close().remove():a.find('span[data-id="time"]').html(t.time)});n.addTimer(r.name,c)}return r},clearTimerById:function(t){t&&window.clearTimeout(this.getTimer(t)),delete i[t]},getTimer:function(t){return i[t]},addTimer:function(t,e){return i[t]=e},timerClose:function(t,e){return window.setInterval(function(){e&&e()},1e3*t)}},t.module("ngArtDialog",[]).provider("$dialog",[function(){this.$get=["$http","$compile","$q",function(t,e,i){return{alert:function(t){return t.type="alert",new n(t)},confirm:function(t){return t.type="confirm",new n(t)},tip:function(t){return t.type="tip",t.fixed=!0,new n(t)},loading:function(t){return t.type="loading",new n(t)},contentDialog:function(o,r){o.type="contentDialog";var a=i.defer();return o.contentUrl&&t.get(o.contentUrl).success(function(t){o.content=t;var i=new n(o);e(i.node)(r),a.resolve(i)}),a.promise}}}]}])});

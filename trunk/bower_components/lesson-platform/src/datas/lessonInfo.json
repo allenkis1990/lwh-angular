@@ -1,0 +1,121 @@
+{
+    "status": true,
+    "info"  : {
+        "courseUpdate"    : null,
+        "currentDomain"   : "http://test.ihbedu.com:1457",
+        "lessonDetail"    : {
+            "abouts"           : "无",
+            "applicationStatus": null,
+            "courseOutlineDtos": [
+                {
+                    "courseOutlineId"  : "f6b4fecfec1e46d8bbdfc31645b70ed2",
+                    "cseId"            : "0d0492e545884f6e852e62a85e0b486f",
+                    "customeStatus"    : 0,
+                    "cweId"            : "",
+                    "formatSize"       : null,
+                    "id"               : "f6b4fecfec1e46d8bbdfc31645b70ed2",
+                    "mediaIds"         : null,
+                    "name"             : "1",
+                    "nameNull"         : true,
+                    "nameRepeat"       : true,
+                    "nameToo"          : true,
+                    "parentId"         : "0",
+                    "progress"         : "100",
+                    "record"           : false,
+                    "renameName"       : "1",
+                    "schedule"         : null,
+                    "select"           : false,
+                    "sort"             : 0,
+                    "status"           : null,
+                    "subCourseOutlines": [
+                        {
+                            "courseOutlineId"  : "b401e9d4b07f471da40b2c77fc12ab8f",
+                            "cseId"            : "0d0492e545884f6e852e62a85e0b486f",
+                            "customeStatus"    : 1,
+                            "cweId"            : "3d1f080bbe9f4bc1b842764861a05c40",
+                            "formatSize"       : "523.85 K",
+                            "id"               : "b401e9d4b07f471da40b2c77fc12ab8f",
+                            "mediaIds"         : [
+                                "2289b42e6b85434d84b8dae855c993ce"
+                            ],
+                            "name"             : "1",
+                            "nameNull"         : true,
+                            "nameRepeat"       : true,
+                            "nameToo"          : true,
+                            "parentId"         : "f6b4fecfec1e46d8bbdfc31645b70ed2",
+                            "progress"         : "100",
+                            "record"           : false,
+                            "renameName"       : "1",
+                            "schedule"         : 0,
+                            "select"           : false,
+                            "sort"             : 0,
+                            "status"           : 1,
+                            "subCourseOutlines": null,
+                            "timeLength"       : 15,
+                            "type"             : 1,
+                            "update"           : false,
+                            "uploadSuccess"    : true
+                        }
+                    ],
+                    "timeLength"       : 0,
+                    "type"             : null,
+                    "update"           : false,
+                    "uploadSuccess"    : true
+                }
+            ],
+            "createTime"       : "2016-07-19 20:04:11",
+            "creator"          : null,
+            "examPoints"       : [
+                "生化bak>生化章节1>生化细目1>生化考点1"
+            ],
+            "expandData"       : "",
+            "iconPath"         : "",
+            "id"               : "0d0492e545884f6e852e62a85e0b486f",
+            "likeNumber"       : 0,
+            "name"             : "隋准の课程",
+            "productStatus"    : null,
+            "status"           : 0,
+            "studyCount"       : 0,
+            "subject"          : null,
+            "teacherInfo"      : "隋准",
+            "testSites"        : [
+                "2c9181fc5377e8e50153794b93870017"
+            ],
+            "type"             : 2
+        },
+        "lessonPlay"      : {
+            "coursewareOutlineDtos": null,
+            "playParams"           : {
+                "chapterId"             : null,
+                "chaptersList"          : [],
+                "courseId"              : "0d0492e545884f6e852e62a85e0b486f",
+                "courseWareId"          : 4,
+                "defaultPlay"           : false,
+                "gUID"                  : "ea0623c593e240cfb33b3a8269e38427",
+                "lectureList"           : [],
+                "mediaId"               : "2289b42e6b85434d84b8dae855c993ce",
+                "objectId"              : "-1",
+                "organizationId"        : "-1",
+                "originalAbilityId"     : null,
+                "platformId"            : "2c9180e5520a5e70015214fb2849000a",
+                "platformVersionId"     : "2c9180e5520a6063015214fc062d0006",
+                "playType"              : null,
+                "projectId"             : "2c9180e5520a60630152150b0b4a000e",
+                "streamHost"            : "http://192.168.1.227:9083",
+                "streamPath"            : "/query/6qVqQcar2xJjDLd3RhTePoRjyX2OR6I4X3LGpyUhJ6U=",
+                "subCoursewareOutlineId": null,
+                "subProjectId"          : "2c9180e5520a606301521596e7070018",
+                "test"                  : false,
+                "timeLength"            : 15,
+                "type"                  : "2",
+                "unitId"                : "-1",
+                "userId"                : "2c9181e55602740b01560ca9da1a01e3",
+                "userName"              : null,
+                "videoResourceList"     : null
+            }
+        },
+        "resourcePath"    : "http://test.ihbedu.com",
+        "studyServicePath": "http://test.study.com/",
+        "videoStreamHost" : "http://192.168.1.227:9083"
+    }
+}

@@ -1,0 +1,207 @@
+{
+    "info"  : {
+        "lesson"                : {
+            "id"          : "12f7347f8c07454192616a25dea63022",
+            "name"        : "Internal Identity Director",
+            "userId"      : "2c9181e5562bf2ef0156355edc4d0af9",
+            "schedule"    : 25,
+            "teacher"     : [
+                "李 正豪",
+                "朱 晟睿"
+            ],
+            "chapterList" : [
+                {
+                    "id"            : "344bb0cc-9f20-4874-933e-b6a80b041a42",
+                    "name"          : "Legacy Interactions Representative",
+                    "courseWareList": [
+                        {
+                            "id"       : "eb7fb639-efad-4da0-9534-28ec6e7fe664",
+                            "name"     : "Principal Optimization Officer",
+                            "mediaList": [
+                                {
+                                    "id"      : "sdfsdf",
+                                    "name"    : "",
+                                    "time"    : "",
+                                    "mode"    : 1,
+                                    "schedule": 73,
+                                    "type"    : 1
+                                }
+                            ]
+                        },
+                        {
+                            "id"       : "dcf50386216f4d8fa24fad2e627dba19",
+                            "name"     : "网安单视频",
+                            "mediaList": [
+                                {
+                                    "id"      : "fffff",
+                                    "name"    : "",
+                                    "time"    : "",
+                                    "mode"    : 1,
+                                    "schedule": 73,
+                                    "type"    : 1
+                                }
+                            ]
+                        },
+                        {
+                            "id"       : "8eeaddfe-7320-465e-baed-14219fd90e20",
+                            "name"     : "Investor Assurance Orchestrator",
+                            "mediaList": [
+                                {
+                                    "id"      : "ddddd",
+                                    "name"    : "",
+                                    "time"    : "",
+                                    "mode"    : 1,
+                                    "schedule": 73,
+                                    "type"    : 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id"            : "1256b797-b793-4894-95ca-3ea2a93af6db",
+                    "name"          : "Central Program Designer",
+                    "courseWareList": [
+                        {
+                            "id"         : "b841ff09-7453-4abf-b0cd-77e3e612df59",
+                            "name"       : "Investor Paradigm Architect",
+                            "mediaList"  : [
+                                {
+                                    "id"      : "fdfsdf",
+                                    "name"    : "",
+                                    "time"    : "",
+                                    "mode"    : 1,
+                                    "schedule": 73,
+                                    "type"    : 1
+                                }
+                            ],
+                            "lectureList": [
+                                {
+                                    "id"  : "be72abff-6fbc-4627-ba22-e8e791009e2f",
+                                    "name": "Legacy Functionality Associate",
+                                    "path": "\\resource\\src\\2c9181e54fee38a9014ff2ad0dc5004e\\2c9181e54fee3877014ff2a7fdde0048\\-1\\0ba5f0147124a478468beaa3c10775c\\index.htm",
+                                    "type": 1
+                                },
+                                {
+                                    "id"  : "decea4d9-c48d-444b-b3c7-d4e96b969116",
+                                    "name": "Legacy Brand Technician",
+                                    "path": "\\resource\\file\\0ad289c6c9da47ec8660b53e2f03f15b_300x300.jpg",
+                                    "type": 2
+                                },
+                                {
+                                    "id"  : "9790d1d2-ad83-4933-894d-cbae5a13e72d",
+                                    "name": "International Quality Liason",
+                                    "path": "\\resource\\file\\402881e34de1458c014de145da760002.txt",
+                                    "type": 3
+                                },
+                                {
+                                    "id"  : "9bb7986c-63ab-46c2-88b8-9f078c0346b7",
+                                    "name": "Human Mobility Assistant",
+                                    "path": "\\resource\\file\\2c9181e6560cb69e015626262e2a0078.pdf",
+                                    "type": 4
+                                },
+                                {
+                                    "id"  : "9bb7986c-63ab-46c2-88b8-9f078c0346b7",
+                                    "name": "Human Mobility Assistant",
+                                    "path": "\\resource\\file\\2c9181e6560cb69e015626262e2a0078.pdf",
+                                    "type": 4
+                                },
+                                {
+                                    "id"  : "9bb7986c-63ab-46c2-88b8-9f078c0346b7",
+                                    "name": "Human Mobility Assistant",
+                                    "path": "\\resource\\file\\2c9181e6560cb69e015626262e2a0078.pdf",
+                                    "type": 4
+                                },
+                                {
+                                    "id"  : "9bb7986c-63ab-46c2-88b8-9f078c0346b7",
+                                    "name": "Human Mobility Assistant",
+                                    "path": "\\resource\\file\\2c9181e6560cb69e015626262e2a0078.pdf",
+                                    "type": 4
+                                },
+                                {
+                                    "id"  : "9bb7986c-63ab-46c2-88b8-9f078c0346b7",
+                                    "name": "Human Mobility Assistant",
+                                    "path": "\\resource\\file\\2c9181e6560cb69e015626262e2a0078.pdf",
+                                    "type": 4
+                                },
+                                {
+                                    "id"  : "9bb7986c-63ab-46c2-88b8-9f078c0346b7",
+                                    "name": "Human Mobility Assistant",
+                                    "path": "\\resource\\file\\2c9181e6560cb69e015626262e2a0078.pdf",
+                                    "type": 4
+                                },
+                                {
+                                    "id"  : "9bb7986c-63ab-46c2-88b8-9f078c0346b7",
+                                    "name": "Human Mobility Assistant",
+                                    "path": "\\resource\\file\\2c9181e6560cb69e015626262e2a0078.pdf",
+                                    "type": 4
+                                },
+                                {
+                                    "id"  : "9bb7986c-63ab-46c2-88b8-9f078c0346b7",
+                                    "name": "Human Mobility Assistant",
+                                    "path": "\\resource\\file\\2c9181e6560cb69e015626262e2a0078.pdf",
+                                    "type": 4
+                                },
+                                {
+                                    "id"  : "9bb7986c-63ab-46c2-88b8-9f078c0346b7",
+                                    "name": "Human Mobility Assistant",
+                                    "path": "\\resource\\file\\2c9181e6560cb69e015626262e2a0078.pdf",
+                                    "type": 4
+                                },
+                                {
+                                    "id"  : "9bb7986c-63ab-46c2-88b8-9f078c0346b7",
+                                    "name": "Human Mobility Assistant",
+                                    "path": "\\resource\\file\\2c9181e6560cb69e015626262e2a0078.pdf",
+                                    "type": 4
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "pic"         : "http://lorempixel.com/400/300",
+            "lastPlayInfo": {
+                "chapterId"   : "344bb0cc-9f20-4874-933e-b6a80b041a42",
+                "courseWareId": "dcf50386216f4d8fa24fad2e627dba19",
+                "mediaId"     : "dcf50386216f4d8fa24fad2e627dba19",
+                "time"        : 39,
+                "streamHost"  : "http://192.168.1.227:9083",
+                "streamPath"  : "/query/6qVqQcar2xJjDLd3RhTePn_AGqcrFwT36aI0ZX_Q5IU="
+            }
+        },
+        "test"                  : true,
+        "plmId"                 : "2c9181e54fee38a9014ff2ad0dc5004e",
+        "pvmId"                 : "2c9181e54fee3877014ff2a7fdde0048",
+        "prmId"                 : "402881c75505051b01550507266a0001",
+        "subPrmId"              : "402881c75505051b0155050727250003",
+        "unitId"                : "-1",
+        "orgId"                 : "-1",
+        "objectId"              : "95ecc8eb64bd493997e7f215142e8f8c",
+        "objectType"            : "-1",
+        "guid"                  : "7749b6a57d174f0da4a0d7ec0acddde3",
+        "originalAbilityId"     : "69befbfb0b524e2a8fa682039bef686b",
+        "chapterId"             : null,
+        "courseWareId"          : "dcf50386216f4d8fa24fad2e627dba19",
+        "defaultPlay"           : false,
+        "gUID"                  : "dd45cda50b0641959a80be637a911cf2",
+        "mediaId"               : "a1d23f5ea7f84bb0829c0652001c9d12",
+        "organizationId"        : "-1",
+        "platformId"            : "69befbfb0b524e2a8fa682039bef686b",
+        "platformVersionId"     : "69befbfb0b524e2a8fa682039bef686b",
+        "playType"              : null,
+        "projectId"             : "2c9180e5520a60630152150b0b4a000e",
+        "subCoursewareOutlineId": null,
+        "subProjectId"          : "2c9180e5520a606301521596e7070018",
+        "timeLength"            : 15,
+        "userId"                : "2c9181e5562bf2ef0156355edc4d0af9",
+        "userName"              : null,
+        "videoResourceList"     : null,
+        "multimediaId"          : "1ab032142bae4a49a68de49350c3223e",
+        "studyServicePath"      : "http://test.study.com",
+        "courseId"              : "12f7347f8c07454192616a25dea63022",
+        "type"                  : "2"
+    },
+    "status": true,
+    "code"  : 200
+}
+

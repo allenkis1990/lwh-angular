@@ -1,0 +1,13 @@
+{
+    "status": true,
+    "info"  : {
+        "examServiceUrl": "http://test.exam.com:8080/",
+        "objectIdList": [
+            "1",
+            "4",
+            "3",
+            "2"
+        ],
+        "triggerFormValue": 2
+    }
+}

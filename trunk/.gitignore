@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+### front-end template
+*.tmp
+#bower_components
+public
+node_modules
+#html
+.temp
+.idea

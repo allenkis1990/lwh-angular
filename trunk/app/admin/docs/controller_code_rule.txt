@@ -1,0 +1,25 @@
+控制器里面的内容 与kendoui结合
+  // 主要存放kendui的一些配置项目
+  $scope.ui = {};
+
+  // 主要存放kendoui返回的组件对象
+  一般在页面上面有这样的定义
+  <div kendo-button="node.buttons.add"></div>
+
+  $scope.node = {};
+
+  --- > 结果: $scope.node.buttons.add 上面会有一个对象为kendo-button的jq实例化对象
+
+  // 页面上面的事件处理函数
+  $scope.events = {};
+
+  // 页面上面绑定的数据对象
+  $scope.model = {};
+
+
+
+
+
+
+
+  ####### 控制器当中严禁有对html当中的dom操作的代码 #########

@@ -1,0 +1,9 @@
+{
+    "name"   : "accountant",
+    "themes" : {
+        "default": "typxmis/styles/default/webstyle.css",
+        "red"    : "typxmis/styles/red/webstyle.css"
+    },
+    "main"   : "typxmis/portal.app.js",
+    "version": "0.0.1"
+}

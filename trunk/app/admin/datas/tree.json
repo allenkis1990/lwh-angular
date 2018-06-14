@@ -1,0 +1,22 @@
+
+  {
+    "status": true,
+    "code": 200,
+    "info": [
+      {
+        "id":6666,
+        "name":"人社1",
+        "hasChildren":true,
+        "parentId":-1,
+        "expanded":false
+      },
+      {
+        "id":7777,
+        "name":"人社22222222222222",
+        "hasChildren":true,
+        "parentId":-1,
+        "expanded":false
+      }
+    ]
+  }
+

@@ -1,0 +1,1 @@
+{"version":3,"sources":["footer-ctrl.js"],"names":[],"mappings":";AACA,OAAS,UAAW,GAAX,EAAiB;AACtB;;AACA,WAAM,CAAC,QAAD,EAAU,UAAW,MAAX,EAAmB,CAElC,CAFK,CAAN;AAGH,CALD","file":"footer-ctrl-compiled.js","sourcesContent":["\r\ndefine ( function ( mod ) {\r\n    'use strict';\r\n    return['$scope',function ( $scope) {\r\n\r\n    }]\r\n} );\r\n"]}

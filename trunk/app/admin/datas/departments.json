@@ -1,0 +1,94 @@
+{
+  "code": "100",
+  "results": [
+    {
+      "text": "研发部",
+      "id": "10010",
+      "HasDepartments": true,
+      "items": [
+        {
+          "text": "研发一部",
+          "id": "10011",
+          "HasDepartments": false
+        },
+        {
+          "text": "研发二部",
+          "id": "10012",
+          "HasDepartments": false
+        }
+      ]
+    },
+    {
+      "text": "产品部",
+      "id": "10020",
+      "HasDepartments": true,
+      "items": [
+        {
+          "text": "产品一部",
+          "id": "10021",
+          "HasDepartments": false
+        },
+        {
+          "text": "产品二部",
+          "id": "10022",
+          "HasDepartments": false
+        }
+      ]
+    },
+    {
+      "text": "运营部",
+      "id": "10030",
+      "HasDepartments": true,
+      "items": [
+        {
+          "text": "运营一部",
+          "id": "10031",
+          "HasDepartments": false
+        },
+        {
+          "text": "运营二部",
+          "id": "10032",
+          "HasDepartments": false
+        }
+      ]
+    },
+    {
+      "text": "市场部",
+      "id": "10040",
+      "HasDepartments": true,
+      "items": [
+        {
+          "text": "市场一部",
+          "id": "10041",
+          "HasDepartments": false
+        },
+        {
+          "text": "市场二部",
+          "id": "10042",
+          "HasDepartments": false
+        }
+      ]
+    },
+    {
+      "text": "课件部",
+      "id": "10050",
+      "HasDepartments": true,
+      "items": [
+        {
+          "text": "课件一部",
+          "id": "10051",
+          "HasDepartments": false
+        },
+        {
+          "text": "课件二部",
+          "id": "10052",
+          "HasDepartments": false
+        }
+      ]
+    },
+    {
+      "text": "总经办",
+      "id": "10060"
+    }
+  ]
+}

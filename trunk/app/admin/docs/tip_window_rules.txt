@@ -1,0 +1,5 @@
+alert
+      globle.alert('title', 'content')
+
+confirm
+      globle.confirm('title', 'content', function() {} ----> 确定执行的函数);

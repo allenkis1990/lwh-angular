@@ -1,0 +1,208 @@
+{
+  "d": {
+    "code": "100",
+    "results": [
+      {
+        "__metadata": {
+          "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10248)",
+          "type": "SampleModel.Order"
+        },
+        "OrderID": 10248,
+        "CustomerID": "VINET",
+        "EmployeeID": 5,
+        "OrderDate": "/Date(836438400000)/",
+        "RequiredDate": "/Date(838857600000)/",
+        "ShippedDate": "/Date(837475200000)/",
+        "ShipVia": 3,
+        "Freight": "32.38",
+        "ShipName": "Vins et alcools Chevalier",
+        "ShipAddress": "59 rue de l'Abbaye",
+        "ShipCity": "Reims",
+        "ShipRegion": null,
+        "ShipPostalCode": "51100",
+        "ShipCountry": "France",
+        "Customer": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10248)/Customer"
+          }
+        },
+        "Employee": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10248)/Employee"
+          }
+        },
+        "Order_Details": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10248)/Order_Details"
+          }
+        },
+        "Shipper": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10248)/Shipper"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10249)",
+          "type": "SampleModel.Order"
+        },
+        "OrderID": 10249,
+        "CustomerID": "TOMSP",
+        "EmployeeID": 6,
+        "OrderDate": "/Date(836524800000)/",
+        "RequiredDate": "/Date(840153600000)/",
+        "ShippedDate": "/Date(836956800000)/",
+        "ShipVia": 1,
+        "Freight": "11.61",
+        "ShipName": "Toms Spezialitäten",
+        "ShipAddress": "Luisenstr. 48",
+        "ShipCity": "Münster",
+        "ShipRegion": null,
+        "ShipPostalCode": "44087",
+        "ShipCountry": "Germany",
+        "Customer": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10249)/Customer"
+          }
+        },
+        "Employee": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10249)/Employee"
+          }
+        },
+        "Order_Details": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10249)/Order_Details"
+          }
+        },
+        "Shipper": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10249)/Shipper"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10250)",
+          "type": "SampleModel.Order"
+        },
+        "OrderID": 10250,
+        "CustomerID": "HANAR",
+        "EmployeeID": 4,
+        "OrderDate": "/Date(836784000000)/",
+        "RequiredDate": "/Date(839203200000)/",
+        "ShippedDate": "/Date(837129600000)/",
+        "ShipVia": 2,
+        "Freight": "65.83",
+        "ShipName": "Hanari Carnes",
+        "ShipAddress": "Rua do Paço, 67",
+        "ShipCity": "Rio de Janeiro",
+        "ShipRegion": "RJ",
+        "ShipPostalCode": "05454-876",
+        "ShipCountry": "Brazil",
+        "Customer": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10250)/Customer"
+          }
+        },
+        "Employee": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10250)/Employee"
+          }
+        },
+        "Order_Details": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10250)/Order_Details"
+          }
+        },
+        "Shipper": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10250)/Shipper"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10251)",
+          "type": "SampleModel.Order"
+        },
+        "OrderID": 10251,
+        "CustomerID": "VICTE",
+        "EmployeeID": 3,
+        "OrderDate": "/Date(836784000000)/",
+        "RequiredDate": "/Date(839203200000)/",
+        "ShippedDate": "/Date(837388800000)/",
+        "ShipVia": 1,
+        "Freight": "41.34",
+        "ShipName": "Victuailles en stock",
+        "ShipAddress": "2, rue du Commerce",
+        "ShipCity": "Lyon",
+        "ShipRegion": null,
+        "ShipPostalCode": "69004",
+        "ShipCountry": "France",
+        "Customer": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10251)/Customer"
+          }
+        },
+        "Employee": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10251)/Employee"
+          }
+        },
+        "Order_Details": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10251)/Order_Details"
+          }
+        },
+        "Shipper": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10251)/Shipper"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10252)",
+          "type": "SampleModel.Order"
+        },
+        "OrderID": 10252,
+        "CustomerID": "SUPRD",
+        "EmployeeID": 4,
+        "OrderDate": "/Date(836870400000)/",
+        "RequiredDate": "/Date(839289600000)/",
+        "ShippedDate": "/Date(837043200000)/",
+        "ShipVia": 2,
+        "Freight": "51.30",
+        "ShipName": "Suprêmes délices",
+        "ShipAddress": "Boulevard Tirou, 255",
+        "ShipCity": "Charleroi",
+        "ShipRegion": null,
+        "ShipPostalCode": "B-6000",
+        "ShipCountry": "Belgium",
+        "Customer": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10252)/Customer"
+          }
+        },
+        "Employee": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10252)/Employee"
+          }
+        },
+        "Order_Details": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10252)/Order_Details"
+          }
+        },
+        "Shipper": {
+          "__deferred": {
+            "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Orders(10252)/Shipper"
+          }
+        }
+      }
+    ],
+    "total": "800"
+  }
+}

@@ -1,0 +1,224 @@
+[
+  {
+    "name": "首页",
+    "menuIcon": "ico-sy",
+    "state": "states.home"
+  },
+  {
+    "name": "基础数据管理",
+    "menuIcon": "ico-jcsj",
+    "subs": [
+      {
+        "name": "行业主管数据",
+        "state": "states.industryExecutiveData"
+      },
+      {
+        "name": "人社部门数据",
+        "state": "states.HRSSData"
+      }
+    ]
+  },
+  {
+    "name": "继续教育管理",
+    "menuIcon": "ico-jxjy",
+    "subs": [
+      {
+        "name": "年度学时管理",
+        "state": "states.annualHoursManagement"
+      },
+      {
+        "name": "学时申报记录",
+        "state": "states.hoursDeclaredRecord"
+      },
+      {
+        "name": "培训计划管理",
+        "state": "states.TrainingPlanManagement"
+      },
+      {
+        "name": "培训项目管理",
+        "state": "states.trainingProjectManagement"
+      },
+      {
+        "name": "培训成绩管理",
+        "state": "states.achievementManagement"
+      },
+      {
+        "name": "成绩管理",
+        "state": "states.scoreManagement"
+      }
+    ]
+  },
+  {
+    "name": "科目管理",
+    "menuIcon": "ico-km",
+    "subs": [
+      {
+        "name": "培训科目管理",
+        "state": "states.trainingSubjectManagement"
+      },
+      {
+        "name": "门户科目展示",
+        "state": "states.portalDisplaySubjects"
+      }
+    ]
+  },
+
+  {
+    "name": "归属人员管理",
+    "menuIcon": "ico-ry",
+    "subs": [
+      {
+        "name": "人员管理",
+        "state": "states.peopleManagement"
+      },
+      {
+        "name": "继续教育档案",
+        "state": "states.continuingEducationArchives"
+      }
+    ]
+  },
+
+
+  {
+    "name": "归属机构管理",
+    "menuIcon": "ico-ry",
+    "subs": [
+      {
+        "name": "用人单位管理",
+        "state": "states.employingUnitManagement"
+      },
+      {
+        "name": "施教机构管理",
+        "state": "states.teachingInstitutionManagement"
+      },
+      {
+        "name": "行业主管管理",
+        "state": "states.industryExecutiveManagement"
+      }
+    ]
+  },
+
+
+  {
+    "name": "申报审批管理",
+    "menuIcon": "ico-sbsp",
+    "subs": [
+      {
+        "name": "我发起的",
+        "state": "states.startedByMe"
+      },
+      {
+        "name": "待我审批的",
+        "state": "states.toMyApproval"
+      },
+      {
+        "name": "批量操作任务查看",
+        "state": "states.batchTaskLookLook"
+      }
+    ]
+  },
+  {
+    "name": "新增培训计划",
+    "menuIcon": "ico-sbsp",
+    "subs": [
+      {
+        "name": "新增培训计划",
+        "state": "states.addTrainPlan"
+      }
+    ]
+  },
+  {
+    "name": "专技人员统计报表",
+    "menuIcon": "ico-sbsp",
+    "subs": [
+      {
+        "name": "专技人员注册统计",
+        "state": "states.sumEmpRegister"
+      },
+      {
+        "name": "专技人员年度注册趋势",
+        "state": "states.sumEmpYearRegisterDirection"
+      },
+      {
+        "name": "人员职称分布情况",
+        "state": "states.sumEmpTitleDistribution"
+      },
+      {
+        "name": "年度人员职称分布情况",
+        "state": "states.sumEmpYearTitleDistribution"
+      }
+    ]
+  },
+  {
+    "name": "用人单位统计报表",
+    "menuIcon": "ico-sbsp",
+    "subs": [
+      {
+        "name": "用人单位注册统计",
+        "state": "states.sumUnitRegister"
+      }
+    ]
+  },
+  {
+    "name": "继续教育基地统计报表",
+    "menuIcon": "ico-sbsp",
+    "subs": [
+      {
+        "name": "继续教育基地统计",
+        "state": "states.sumTeachOrgRegister"
+      }
+    ]
+  },
+  {
+    "name": "行业主管统计报表",
+    "menuIcon": "ico-sbsp",
+    "subs": [
+      {
+        "name": "行业主管注册统计",
+        "state": "states.sumIndustryManagerRegister"
+      }
+    ]
+  },
+  {
+    "name": "继续教育情况统计报表",
+    "menuIcon": "ico-sbsp",
+    "subs": [
+      {
+        "name": "人员参训情况统计",
+        "state": "states.sumEmpTraining"
+      },
+      {
+        "name": "继续教育形式参培统计",
+        "state": "states.sumEmpStudyTypeTraining"
+      },
+      {
+        "name": "继续教育基地培训情况",
+        "state": "states.sumTeachOrgTraining"
+      },
+      {
+        "name": "培训计划实施情况",
+        "state": "states.sumTrainingPlanImplementation"
+      }
+    ]
+  },
+  {
+    "name": "管理员管理",
+    "menuIcon": "ico-sbsp",
+    "subs": [
+      {
+        "name": "管理员账号",
+        "state": "states.adminManagement"
+      }
+    ]
+  },
+  {
+    "name": "lwh测试",
+    "menuIcon": "ico-sbsp",
+    "subs": [
+      {
+        "name": "测试的内容",
+        "state": "states.trainingResultManagement"
+      }
+    ]
+  }
+]

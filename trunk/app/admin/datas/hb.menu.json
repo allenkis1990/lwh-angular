@@ -1,0 +1,42 @@
+[
+  {
+    "name": "home",
+    "menuIcon": "ico-8",
+    "state": "states.home"
+  },
+  {
+    "name": "物流管理",
+    "menuIcon": "ico-8",
+    "state": "states.packageDispatch"
+  },
+  {
+    "name": "基础配置防假学",
+    "menuIcon": "ico-8",
+    "state": "states.defenceFakeLearning"
+  },
+  {
+    "name": "合格统计",
+    "menuIcon": "ico-8",
+    "state": "states.passedPerson"
+  },
+  {
+    "name": "退款单管理",
+    "menuIcon": "ico-8",
+    "state": "states.refundManage"
+  },
+  {
+    "name": "学员管理",
+    "menuIcon": "ico-8",
+    "state": "states.userManage"
+  },
+  {
+    "name": "开通",
+    "menuIcon": "ico-8",
+    "state": "states.classEstablish"
+  },
+  {
+    "name": "学习",
+    "menuIcon": "ico-8",
+    "state": "states.classLearning"
+  }
+]

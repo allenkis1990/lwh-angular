@@ -1,0 +1,36 @@
+{
+  "code": 200,
+  "status": true,
+  "totalPageSize": 1,
+  "totalSize": 6,
+  "info": [
+    {
+      "trainingPlanId":"1",
+      "trainingYear":"2016",
+      "subjectType":"PUBLIC",
+      "trainType":"ONLINE",
+      "credit":"15",
+      "userCount":"11",
+      "trainingProjectCount":"2"
+    },
+    {
+      "trainingPlanId":"2",
+      "trainingYear":"2017",
+      "subjectType":"MAJOR",
+      "trainType":"ONLINE",
+      "credit":"15",
+      "userCount":"11",
+      "trainingProjectCount":"3"
+    },
+    {
+      "trainingPlanId":"3",
+      "trainingYear":"2020",
+      "subjectType":"PUBLIC",
+      "trainType":"ONLINE",
+      "credit":"15",
+      "userCount":"11",
+      "trainingProjectCount":"4"
+    }
+  ]
+}
+

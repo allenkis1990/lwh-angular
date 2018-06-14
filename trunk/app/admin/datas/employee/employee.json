@@ -1,0 +1,34 @@
+{
+    "info": [
+        {
+            "email": "cunhuigood@163.com",
+            "identifyCode": "352203199108033713",
+            "job": "暂未岗位",
+            "jobGrade": "暂未岗位",
+            "name": "林存会",
+            "organization": "暂无部门",
+            "phoneNumber": "15659100957",
+            "sex": 1,
+            "status": 1,
+            "unit": "福建省地税局",
+            "userId": "2c9180e54e8b1371014e8cb5a9270003",
+            "workDate": "2015-07-14 00:00:00"
+        },
+        {
+            "email": "949507869@qq.com",
+            "identifyCode": "35220319910803373X",
+            "job": "暂未岗位",
+            "jobGrade": "暂未岗位",
+            "name": "林存回",
+            "organization": "暂无部门",
+            "phoneNumber": "15659100956",
+            "sex": 1,
+            "status": 1,
+            "unit": "福建省地税局",
+            "userId": "2c9180e54e8b1371014e8cc21075000d",
+            "workDate": "2015-07-14 00:00:00"
+        }
+    ],
+    "status": true,
+    "totalSize": 35
+}

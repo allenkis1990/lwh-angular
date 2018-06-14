@@ -1,0 +1,20 @@
+跳转路由 globle.stateGo('状态名称', 'tab标题显示名称', {要传送的参数})
+       例子
+            >> xxxx-state.js 的配置
+                  $stateProvider
+                        .state ('states.尸体管理', {
+                        url: '/deadBody/:id',    ///// :id为占位符 如果为:name/:any的话
+                        sticky: true,                                                        \
+                        views: {                                                              \
+                              'states.restangulartest@': {                                     \
+                                    templateUrl: 'views/restangulartest/restangulartest.html',  \
+                                    controller: 'app.restangulartest.restangulartestCtrl'       /
+                              }                                                                /
+                        }                                                                     /
+                  });                                                                        \/
+                                                                              {name: 'xxx'}或者{any: 'xxxx'}
+            <button ng-click="globle.stateGo('staets.deadBody', '尸体管理', {id: '123'})"></button>
+
+无参刷新路由globle.reload('states.deadBody', {});
+
+参数刷新路由globle.reloadWithParam('states.deadBody', {});

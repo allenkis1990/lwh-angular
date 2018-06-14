@@ -1,0 +1,1 @@
+{"version":3,"sources":["top-ctrl.js"],"names":[],"mappings":"AAAA,OAAO,UAAU,GAAV,EAAe;AAClB;;AACA,WAAO,CAAC,QAAD,EACH,UAAU,MAAV,EAAkB,CAGjB,CAJE,CAAP;AAKH,CAPD","file":"top-ctrl-compiled.js","sourcesContent":["define(function (mod) {\r\n    'use strict';\r\n    return ['$scope',\r\n        function ($scope) {\r\n\r\n\r\n        }]\r\n});\r\n"]}

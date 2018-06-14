@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title></title>
+    <!--<link rel="icon" type="image/ico" href="favicon.ico">-->
+</head>
+<body>
+<script id="project_main_config">var projectMainConfig = [{"baseUrl":"typxmis","domain":"dev.typxmis.com","name":"6666","adminName":"66666","theme":"default","id":"1422b0d0-0f56-457b-82d2-bd413f41a209"}];</script>
+<script id="app_name_use_in_gulpfile">var appName = "admin";</script>
+<script>
+    var domain = window.location.href;
+    domain = domain.replace(/http:\/\/|https:\/\//, '').split('/')[0].replace(/:\d{4}/, '');
+    var current;
+
+    for (var i = 0; i < projectMainConfig.length; i++) {
+        var item = projectMainConfig[i];
+        if (item.domain === domain) {
+            current = item;
+            break;
+        }
+    }
+
+    if (current) {
+        var to = '/' + appName + current.baseUrl.replace(/[a-z]/, function (a) {
+                    return a.toUpperCase();
+                });
+
+        var hash = window.location.href.split('#')[1];
+
+        if (hash) {
+            to += '/#' + hash;
+        }
+
+        window.location.replace(to);
+    }
+</script>
+</body>
+</html>

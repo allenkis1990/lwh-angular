@@ -1,0 +1,36 @@
+{
+  "initOrder":{
+    "orderNo":"666666666666666",
+    "productName":"我是初始订单产品名",
+    "dealPrice":0.01,
+    "businessType":"SWAP_IN",
+    "completeTime":"2016-11-21 18:55",
+    "operator":"刘伟恒"
+  },
+  "guanlianOrder":[
+    {
+      "orderNo":"666666666666666",
+      "productName":"我是初始订单产品名1",
+      "dealPrice":0.01,
+      "businessType":"SWAP_IN",
+      "completeTime":"2016-11-21 18:55",
+      "operator":"刘伟恒1"
+    },
+    {
+      "orderNo":"666666666666666",
+      "productName":"我是初始订单产品名2",
+      "dealPrice":0.01,
+      "businessType":"SWAP_IN",
+      "completeTime":"2016-11-21 18:55",
+      "operator":"刘伟恒2"
+    },
+    {
+      "orderNo":"666666666666666",
+      "productName":"我是初始订单产品名3",
+      "dealPrice":0.01,
+      "businessType":"SWAP_OUT",
+      "completeTime":"2016-11-21 18:55",
+      "operator":"刘伟恒3"
+    }
+  ]
+}

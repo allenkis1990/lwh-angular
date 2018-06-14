@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title></title>
+    <script src="/bower_components/es5-shim/es5-shim.min.js"></script>
+    <script type="text/javascript">
+        var protocol = window.location.href.match(/http:\/\/|https:\/\//),
+            head = document.getElementsByTagName('head')[0],
+            base = document.createElement('base');
+        var replaceReg = 'seoportalseo'.split('seo')[1],
+            suffix = replaceReg ? '/' : '';
+        base.href = protocol + window.location.host + '/' + replaceReg + suffix;
+        head.appendChild(base);
+    </script>
+    <style>
+        #cnzz_stat_icon_5050436 {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div ui-view="topView"></div>
+<div ui-view="contentView"></div>
+<div ui-view="footerView"></div>
+
+<span id="cnzz_stat_icon_5050436"></span>
+
+</body>
+<script src="/bower_components/requirejs/require.js" data-main="main.config.js"></script>
+<script id="app_config_info">define("_app_config_infos_", function () {"use strict"; return [{"name":"typxmis","themes":{"default":"typxmis/styles/default/webstyle.css","fonts":"typxmis/styles/fonts/webstyle.css"},"main":"typxmis/main.app.js","version":"0.0.1"}] }) </script>
+<script type="text/javascript">
+    var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(decodeURIComponent("%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/stat.php%3Fid%3D5050436%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</html>

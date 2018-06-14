@@ -1,0 +1,54 @@
+{
+    "info"     : [
+        {
+            "CustomerID"          : "ALFKI",
+            "CompanyName"         : "Alfreds Futterkiste",
+            "ContactName"         : "Maria Anders",
+            "ContactTitle"        : 0,
+            "Address"             : 0,
+            "City"                : 0,
+            "Region"              : 0,
+            "PostalCode"          : 0,
+            "Country"             : 0,
+            "Phone"               : 0,
+            "Fax"                 : 0,
+            "Bool"                : 0,
+            "Orders"              : {
+                "__deferred": {
+                    "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Customers('ALFKI')/Orders"
+                }
+            },
+            "CustomerDemographics": {
+                "__deferred": {
+                    "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Customers('ALFKI')/CustomerDemographics"
+                }
+            }
+        },
+        {
+            "CustomerID"          : "ALFKI",
+            "CompanyName"         : "Alfreds Futterkiste",
+            "ContactName"         : "Maria Anders",
+            "ContactTitle"        : 0,
+            "Address"             : 0,
+            "City"                : 0,
+            "Region"              : 0,
+            "PostalCode"          : 0,
+            "Country"             : 0,
+            "Phone"               : 0,
+            "Fax"                 : 0,
+            "Bool"                : 0,
+            "Orders"              : {
+                "__deferred": {
+                    "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Customers('ALFKI')/Orders"
+                }
+            },
+            "CustomerDemographics": {
+                "__deferred": {
+                    "uri": "http://demos.telerik.com/kendo-ui/service/Northwind.svc/Customers('ALFKI')/CustomerDemographics"
+                }
+            }
+        }
+    ],
+    "totalSize": 20,
+    "status"   : true
+}

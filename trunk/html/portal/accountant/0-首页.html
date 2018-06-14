@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="styles/default/webstyle.css"/>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jslides.js"></script>
+    <script type="text/javascript" src="js/tab.js"></script>
+</head>
+<body>
+<div class="g-mn">
+    <div class="g-mn-bd">
+        <!-- 头部 -->
+        <div class="m-header">
+            <div class="top-wrap">
+                <div class="p-wrap-full clear">
+                    <div class="fl">
+                        <a href="#" class="top-app rel">
+                            <i class="p-ico appico"></i>徽学网APP
+                            <div class="hover-block hide">
+                                <div class="hover-bd">
+                                    <i class="arrowtop"></i>
+                                    <img src="images/ewm.gif" width="100" height="100">
+                                    <div class="tc">扫码下载APP</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="right fr"><a href="#">登录</a> | <a href="#">注册</a> | <a href="#">学习中心</a></div>
+                </div>
+            </div>
+            <div class="p-wrap-full clear">
+                <img src="../accountant/images/logo.png" alt=" " class="logo fl">
+                <!-- 导航 -->
+                <div class="m-nav fr">
+                    <div class="nav-bd">
+                        <a href="#">首页</a>
+                        <a href="#" class="current">报名培训</a>
+                        <a href="#">学时验证</a>
+                        <a href="#">培训通知</a>
+                        <a href="#">政策法规</a>
+                        <a href="#">课程展示</a>
+                        <a href="#">帮助中心</a>
+                    </div>
+                </div>
+                <!-- /导航 -->
+            </div>
+        </div>
+        <!-- banner，课程导航登录框 -->
+        <div class="banner-box mb15 rel">
+            <div class="p-wrap-full rel">
+                <!-- 课程导航 -->
+                <div class="nav-wrap">
+                    <div class="nav-bar clear">
+                        <div class="title-box mt18 clear"><h2 class="title t-b">学习数据</h2></div>
+                        <div class="data-box plr20 tc">
+                            <p class="time-panel"><span class="p-ico time_icon"></span>2016-07-01 15:00:00</p>
+                            <div class="data-panel bor-b">
+                                <div class="data-num fs42">2,159</div>
+                                <p class="lh36 txt-g">累计考核通过学时</p>
+                            </div>
+                            <div class="data-panel">
+                                <div class="data-num fs42">159</div>
+                                <p class="lh36 txt-g">当前在线用户数</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 登录框-登录前 -->
+                <div class="course-my">
+                    <div class="course-my-info clear"><a class="my-headimg"><img  src="../accountant/images/userimgindex.jpg"></a>
+                        <div class="info-detail mt10">
+                            <div>HI，您还没登录</div>
+                            <span>欢迎登录继教园</span></div>
+                    </div>
+                    <div class="login-entry">
+                        <a href="#" class="btn-r">登录</a>
+                        <a href="#" class="btn-b-b">注册</a>
+                    </div>
+                    <ul class="entry-box clearfix" >
+                        <li><a href="#"><i class="p-ico i1"></i><span>我的学习</span></a></li>
+                        <li><a href="#"><i class="p-ico i2"></i><span>学习档案</span></a></li>
+                        <li><a href="#"><i class="p-ico i3"></i><span>我的订单</span></a></li>
+                        <li><a href="#"><i class="p-ico i4"></i><span>购物车</span></a></li>
+                        <li><a href="#"><i class="p-ico i5"></i><span>通知</span></a></li>
+                        <li><a href="#"><i class="p-ico i6"></i><span>帐户设置</span></a></li>
+                    </ul>
+                </div>
+                <!-- 登录框-登录后 -->
+                <div class="course-my hide">
+                    <div class="course-my-info clear"><a class="my-headimg"><img  src="../accountant/images/user-img-index.jpg"></a>
+                        <div class="info-detail">
+                            <div class="mb5">欢迎您，<span class="t-b">隔壁老王</span></div>
+                            <span class="fs12">除了诗和远方外，还有继教园！</span></div>
+                    </div>
+                    <div class="login-entry">
+                        <a href="#" class="btn-b-b w196">进入学习中心</a>
+                    </div>
+                    <ul class="entry-box clearfix" >
+                        <li><a href="#"><i class="p-ico i1"></i><span>我的学习</span></a></li>
+                        <li><a href="#"><i class="p-ico i2"></i><span>学习档案</span></a></li>
+                        <li><a href="#"><i class="p-ico i3"></i><i class="p-ico red-r">2</i><span>我的订单</span></a></li>
+                        <li><a href="#"><i class="p-ico i4"></i><span>购物车</span></a></li>
+                        <li><a href="#"><i class="p-ico i5"></i><i class="p-ico red-r red-r-2">2</i><span>通知</span></a></li>
+                        <li><a href="#"><i class="p-ico i6"></i><span>账户设置</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 代码 开始 -->
+            <div id="full-screen-slider">
+                <ul id="slides">
+                    <li style="background: url('../accountant/images/banner1.jpg') no-repeat center top"></li>
+                    <li style="background: url('../accountant/images/banner2.jpg') no-repeat center top"></li>
+                    <li style="background: url('../accountant/images/banner3.jpg') no-repeat center top"></li>
+                    <li style="background: url('../accountant/images/banner4.jpg') no-repeat center top"></li>
+                </ul>
+            </div>
+            <!-- 代码 结束 -->
+        </div>
+        <!-- /banner，登录框 -->
+        <!-- 继续教育流程 -->
+        <div class="p-wrap-full white-bg clear mt10">
+            <div class="title-box mt5 clear"><h2 class="title">继续教育流程</h2></div>
+            <ul class="lc-list">
+                <li><i class="p-ico ico-lc-1"></i><span>第一步<br/><b class="fs16">注册登录</b></span></li>
+                <li class="w20"><span class="p-ico ico-arrow-right"></span></li>
+                <li><i class="p-ico ico-lc-2"></i><span>第二步<br/><b class="fs16">选择学习内容</b></span></li>
+                <li class="w20"><span class="p-ico ico-arrow-right"></span></li>
+                <li><i class="p-ico ico-lc-3"></i><span>第三步<br/><b class="fs16">在线学习</b></span></li>
+                <li class="w20"><span class="p-ico ico-arrow-right"></span></li>
+                <li><i class="p-ico ico-lc-4"></i><span>第四步<br/><b class="fs16">在线考核</b></span></li>
+                <li class="w20"><span class="p-ico ico-arrow-right"></span></li>
+                <li><i class="p-ico ico-lc-5"></i><span>第五步<br/><b class="fs16">考核通过</b></span></li>
+                <li class="w20"><span class="p-ico ico-arrow-right"></span></li>
+                <li><i class="p-ico ico-lc-6"></i><span>第六步<br/><b class="fs16">打印证明</b></span></li>
+            </ul>
+        </div>
+        <!-- /继续教育流程 -->
+
+        <div class="p-wrap-full clear mt10">
+            <div class="w840 fl">
+                <div class="white-bg">
+                    <div class="tabheadtow">
+                        <h2 class="title">最新培训班</h2>
+                        <a href="#" class="more">MORE+</a>
+                    </div>
+                    <div class="tabbody h240">
+                        <ul class="classlist-index ml10 clear">
+                            <li>
+                                <div class="img"><a href="#"><img src="images/course-pic-01.jpg" alt=" "></a></div>
+                                <div class="tit"><a href="#">剑桥同声传译 CAT-SIC</a></div>
+                                <div class="info clear">
+                                    <p>2017年度 / 30学时 / 公需课</p>
+                                    <p class="price tr">¥75.00</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img"><a href="#"><img src="images/course-pic-02.jpg" alt=" "></a></div>
+                                <div class="tit"><a href="#">ACCA特许公认会计师F1-F3 【学霸班】</a></div>
+                                <div class="info clear">
+                                    <p>2017年度 / 30学时 / 公需课</p>
+                                    <p class="price tr">¥75.00</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img"><a href="#"><img src="images/course-pic-03.jpg" alt=" "></a></div>
+                                <div class="tit"><a href="#">CFA+FRM国际金融双证班【学霸班】</a></div>
+                                <div class="info clear">
+                                    <p>2017年度 / 30学时 / 公需课</p>
+                                    <p class="price tr">¥75.00</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="white-bg mt10">
+                    <div class="tabheadtow">
+                        <h2 class="title">精品课程</h2>
+                        <a href="#" class="more">MORE+</a>
+                    </div>
+                    <div class="tabbody h240">
+                        <ul class="classlist-index ml10 clear">
+                            <li>
+                                <div class="img"><a href="#"><img src="images/course-pic-01.jpg" alt=" "></a></div>
+                                <div class="tit"><a href="#">剑桥同声传译 CAT-SIC</a></div>
+                                <div class="info clear">
+                                    <p>2017年度 / 30学时 / 公需课</p>
+                                    <p class="price tr">¥75.00</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img"><a href="#"><img src="images/course-pic-02.jpg" alt=" "></a></div>
+                                <div class="tit"><a href="#">ACCA特许公认会计师F1-F3 【学霸班】</a></div>
+                                <div class="info clear">
+                                    <p>2017年度 / 30学时 / 公需课</p>
+                                    <p class="price tr">¥75.00</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img"><a href="#"><img src="images/course-pic-03.jpg" alt=" "></a></div>
+                                <div class="tit"><a href="#">CFA+FRM国际金融双证班【学霸班】</a></div>
+                                <div class="info clear">
+                                    <p>2017年度 / 30学时 / 公需课</p>
+                                    <p class="price tr">¥75.00</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="white-bg mt10">
+                    <div class="tabheadtow">
+                        <h2 class="title">课程展示</h2>
+                        <a href="#" class="more">MORE+</a>
+                    </div>
+                    <div class="tabbody h210">
+                        <ul class="classlist-index ml10 clear">
+                            <li>
+                                <div class="img"><a href="#"><img src="images/course-pic-01.jpg" alt=" "></a></div>
+                                <div class="tit mt10"><a href="#">剑桥同声传译 CAT-SIC</a></div>
+                            </li>
+                            <li>
+                                <div class="img"><a href="#"><img src="images/course-pic-02.jpg" alt=" "></a></div>
+                                <div class="tit mt10"><a href="#">ACCA特许公认会计师F1-F3 【学霸班】</a></div>
+                            </li>
+                            <li>
+                                <div class="img"><a href="#"><img src="images/course-pic-03.jpg" alt=" "></a></div>
+                                <div class="tit mt10"><a href="#">CFA+FRM国际金融双证班【学霸班】</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="learning-time-panel white-bg mt10 clear">
+                    <div class="tit fl">学时验证</div>
+                    <div class="fl mt30">
+                        <input type="text" class="ui-ipt iptform ml50"  placeholder="请输入身份证号">
+                        <input type="text" class="ui-ipt iptform ml10"  placeholder="请输入姓名">
+                        <input class="ui-btn btn-r ml10" type="button" value="立即验证">
+                    </div>
+                </div>
+            </div>
+            <div class="w350  fr">
+                <div class="white-bg mb10 h300 clear">
+                    <div class="title-box mt18  clear"><h2 class="title">培训通知</h2><a href="#" class="more">MORE+</a></div>
+                    <div class="plr15 clear pt10 pb10">
+                        <ul class="newslist">
+                            <li><a href="#" title="新《财政总预算会计制度》讲解新《财政总预算会计制度》讲解">新《财政总预算会计制度》讲解新《财政总预算会计制度》讲解</a><span class="date">2017-10-10</span></li>
+                            <li><a href="#">新《财政总预算会计制度》讲解</a><span class="date">2017-10-10</span></li>
+                            <li><a href="#">新《财政总预算会计制度》讲解</a><span class="date">2017-10-10</span></li>
+                            <li><a href="#">新《财政总预算会计制度》讲解</a><span class="date">2017-10-10</span></li>
+                            <li><a href="#">新《财政总预算会计制度》讲解</a><span class="date">2017-10-10</span></li>
+                            <li><a href="#">新《财政总预算会计制度》讲解</a><span class="date">2017-10-10</span></li>
+                            <li><a href="#">新《财政总预算会计制度》讲解</a><span class="date">2017-10-10</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="white-bg mb10 h300 clear">
+                    <div class="title-box mt18  clear"><h2 class="title">政策法规</h2><a href="#" class="more">MORE+</a></div>
+                    <div class="plr15 clear pt10 pb10">
+                        <ul class="newslist">
+                            <li><a href="#">新《财政总预算会计制度》讲解</a><span class="date">2017-10-10</span></li>
+                            <li><a href="#">新《财政总预算会计制度》讲解</a><span class="date">2017-10-10</span></li>
+                            <li><a href="#">新《财政总预算会计制度》讲解</a><span class="date">2017-10-10</span></li>
+                            <li><a href="#">新《财政总预算会计制度》讲解</a><span class="date">2017-10-10</span></li>
+                            <li><a href="#">新《财政总预算会计制度》讲解</a><span class="date">2017-10-10</span></li>
+                            <li><a href="#">新《财政总预算会计制度》讲解</a><span class="date">2017-10-10</span></li>
+                            <li><a href="#">新《财政总预算会计制度》讲解</a><span class="date">2017-10-10</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="white-bg student-panel clear">
+                    <div class="title-box mt18  clear"><h2 class="title">最新通过学员</h2><a href="#" class="more">MORE+</a></div>
+                    <div class="plr15 clear pt10 pb10">
+                        <div class="panel-tit">
+                            <span class="sp1">学员</span>
+                            <span class="sp2 tc">培训内容</span>
+                            <span class="sp3">通过时间</span>
+                        </div>
+                        <ul class="panel-list">
+                            <li>
+                                <span class="sp1">学*员</span>
+                                <span class="sp2">《培训班名称名称名称》</span>
+                                <span class="sp3">2017-10-10</span>
+                            </li>
+                            <li>
+                                <span class="sp1">学*员</span>
+                                <span class="sp2">《培训班名称名称》</span>
+                                <span class="sp3">2017-10-10</span>
+                            </li>
+                            <li>
+                                <span class="sp1">学*员</span>
+                                <span class="sp2">《培训班名称名称名称》</span>
+                                <span class="sp3">2017-10-10</span>
+                            </li>
+                            <li>
+                                <span class="sp1">学*员</span>
+                                <span class="sp2">《培训班名称名称名称名称名称》</span>
+                                <span class="sp3">2017-10-10</span>
+                            </li>
+                            <li>
+                                <span class="sp1">学*员</span>
+                                <span class="sp2">《培训班名称名称》</span>
+                                <span class="sp3">2017-10-10</span>
+                            </li>
+                            <li>
+                                <span class="sp1">学*员</span>
+                                <span class="sp2">《培训班名称名称》</span>
+                                <span class="sp3">2017-10-10</span>
+                            </li>
+                            <li>
+                                <span class="sp1">学*员</span>
+                                <span class="sp2">《培训班名称名称》</span>
+                                <span class="sp3">2017-10-10</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 友情链接 -->
+        <div class="p-wrap-full white-bg clear mt10 mb10">
+            <div class="title-box mt18 clear mb10"><h2 class="title">友情链接</h2></div>
+            <div class="clear">
+                <ul class="linklist">
+                    <li>
+                        <a href="http://www.ah.hrss.gov.cn"><img src="images/linkpic1.jpg" alt=" "></a>
+                    </li>
+                    <li>
+                        <a href="http://www.ahhfld.gov.cn/"><img src="images/linkpic2.jpg" alt=" "></a>
+                    </li>
+                    <li>
+                        <a href="http://web.huangshan.gov.cn/JA012"><img src="images/linkpic3.jpg" alt=" "></a>
+                    </li>
+                    <li>
+                        <a href="http://www.fyldbz.gov.cn/"><img src="images/linkpic4.jpg" alt=" "></a>
+                    </li>
+                    <li>
+                        <a href="http://www.ahsz.hrss.gov.cn/"><img src="images/linkpic5.jpg" alt=" "></a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+        <!-- /友情链接 -->
+
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-bd">
+        <p><a href="#">关于我们</a> | <a href="#">联系我们</a> | <a href="#">帮助中心</a> | <a href="#">在线购课</a></p>
+        <p>Copyright 2016 ©合肥宏景软件有限公司 <span class="ml20">闽ICP备08103886号-1</span></p>
+        <p>技术支撑：福建华博教育科技股份有限公司</p>
+    </div>
+</div>
+
+<div class="sidebar-panel">
+    <a href="#" class="sidebar-items">
+        <div class="items-bd">
+            <span class="ico ico-top"></span>
+        </div>
+    </a>
+    <div class="sidebar-items">
+        <div class="items-bd">
+            <span class="ico ico-gzh"></span>
+            <p>公众号</p>
+        </div>
+        <div class="items-hover">
+            <img class="qr-code-img" src="images/ewm.jpg" alt=" ">
+            <p class="tc mt5">关注公众号，<br>微信上报名！</p>
+        </div>
+    </div>
+    <div class="sidebar-items">
+        <div class="items-bd">
+            <span class="ico ico-xcx"></span>
+            <p>小程序</p>
+        </div>
+        <div class="items-hover">
+            <img class="qr-code-img" src="images/ewm.jpg" alt=" ">
+            <p class="tc mt5">扫小程序，<br>微信上学习！</p>
+        </div>
+    </div>
+    <a href="#" class="sidebar-items">
+        <div class="items-bd">
+            <span class="ico ico-bzzx"></span>
+            <p>帮助中心</p>
+        </div>
+    </a>
+</div>
+
+<script src="js/index.nav.js"></script>
+</body>
+</html>

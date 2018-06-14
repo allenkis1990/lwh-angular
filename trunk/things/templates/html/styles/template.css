@@ -1,0 +1,53 @@
+.main-wrap {
+    right: 0;
+    left: 5px;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+}
+
+.top {
+    padding: 15px;
+    margin-left: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 0 4px;
+}
+
+.side {
+    overflow: auto;
+    top: 0;
+    z-index: 2;
+    width: 200px;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #1F1C1C;
+}
+
+.side-item {
+    padding: 10px;
+    display: block;
+    background: #211d1d;
+    color: #d0c0c0;
+    cursor: pointer;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.side-item:hover {
+    background: #353535;
+}
+
+.content {
+    position: absolute;
+    top: 60px;
+    margin-left: 200px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}

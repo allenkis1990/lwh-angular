@@ -1,0 +1,24 @@
+doctype
+html
+    head
+        title= appName
+        meta(charset="utf-8")
+        link(href="../../bower_components/bootstrap/dist/css/bootstrap.min.css")
+        style
+            include things/templates/html/common/styles/commonStyle.css
+            include things/templates/html/styles/template1.css
+    body
+        div.container
+            div.top= appName
+            div.main-wrap
+                div.side
+                    - for(var x = 0; x < templates.length; x++)
+                        a.side-item(href=templates[x].href, target="_blank")
+                            span.app= templates[x].appName
+                            if templates[x].moduleName!=''
+                                span.module= templates[x].moduleName
+                            span= templates[x].name
+
+
+
+

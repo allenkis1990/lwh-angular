@@ -1,0 +1,60 @@
+doctype
+html
+    head
+        title.
+            美工原型列表
+        meta(charset="utf-8")
+        link(href="/bower_components/bootstrap/dist/css/bootstrap.min.css", rel="stylesheet")
+        link(href="/bower_components/KendoUI/dist/styles/kendo.common.min.css", rel="stylesheet")
+        link(href="/bower_components/KendoUI/dist/styles/kendo.bootstrap.min.css", rel="stylesheet")
+        script(src="/bower_components/jquery/dist/jquery.min.js")
+        script(src="/bower_components/KendoUI/dist/js/kendo.web.min.js")
+        script.= tree
+        style
+            include things/templates/html/styles/directoryTree.css
+
+body
+    div.head
+        h2.
+            美工原型列表
+    div.wrap
+        div#tree_list
+    script.
+        $(document).ready(function () {
+            var dataSource = new kendo.data.TreeListDataSource({
+                data: treeList,
+
+                schema: {
+                    model: {
+                        id: "id",
+                        expanded: false
+                    }
+                }
+            });
+
+            $("#tree_list").kendoTreeList({
+                dataSource: dataSource,
+                filterable: {
+                    extra: false,
+                    messages: {
+                        filter: "搜索",
+                        clear: "清除"
+                    },
+                    operators: {
+                        string: {
+                            contains: "包含"
+                        }
+                    }
+                },
+                columns: [
+                    {field: "name", title: '目录文件结构'},
+                    {field: "dir", title: '路径', filterable: false},
+                    {field: 'path', title: '地址', filterable: false},
+                    {title: '操作', template: '<a href="#:path#" target="_blank">访问</a>', filterable: false}
+                ]
+            });
+        });
+
+
+
+

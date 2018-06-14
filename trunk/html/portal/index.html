@@ -1,0 +1,118 @@
+<!DOCTYPE html><html><head><title>portal</title><meta charset="utf-8"><link href="../../bower_components/bootstrap/dist/css/bootstrap.min.css"><style>html, body {
+    font-family: "微软雅黑";
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/**
+chrome 滚动条样式
+*/
+::-webkit-scrollbar-track-piece {
+/ / background-color: red;
+    -webkit-border-radius: 0;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    border: 0;
+    background: #1E6FC5;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: #999;
+    -webkit-border-radius: 4px;
+    outline: 2px solid #fff;
+    outline-offset: -2px;
+    /*border: 2px solid #fff;*/
+}
+
+::-webkit-scrollbar-thumb:hover {
+    height: 50px;
+    background-color: #9f9f9f;
+    -webkit-border-radius: 4px;
+}
+.main-wrap {
+    margin: 60px 10px 5px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 4px;
+}
+
+.top {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.side {
+    overflow: auto;
+    top: 0;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 4px;
+}
+
+.side-item {
+    padding: 8px 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 4px;
+    width: 250px;
+    text-align: left;
+    display: inline-block;
+    background: #22bdb7;
+    margin-left: 4px;
+    margin-top: 4px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-decoration: none;
+    color: white;
+}
+
+.side-item:hover {
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    background-color: #0b8c69;
+}
+
+.app {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.app:after {
+    content: '-';
+}
+
+
+.module {
+    color: #848181;
+    font-weight: bold;
+}
+
+.module:after {
+    content: '-';
+}</style></head><body><div class="container"><div class="top">portal</div><div class="main-wrap"><div class="side"><a href="index.html" target="_blank" class="side-item"><span class="app">portal</span><span>index.html</span></a><a href="index_another.html" target="_blank" class="side-item"><span class="app">portal</span><span>index_another.html</span></a><a href="accountant\0-首页.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>0-首页.html</span></a><a href="accountant\1-1注册-第一步.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>1-1注册-第一步.html</span></a><a href="accountant\1-2注册-第二步.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>1-2注册-第二步.html</span></a><a href="accountant\1-3注册成功.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>1-3注册成功.html</span></a><a href="accountant\2-1门户弹窗.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>2-1门户弹窗.html</span></a><a href="accountant\2-2忘记密码-1.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>2-2忘记密码-1.html</span></a><a href="accountant\2-3忘记密码-2.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>2-3忘记密码-2.html</span></a><a href="accountant\2-4忘记密码-3.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>2-4忘记密码-3.html</span></a><a href="accountant\3-1继续教育-二级页面.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>3-1继续教育-二级页面.html</span></a><a href="accountant\3-1继续教育二级页-弹窗.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>3-1继续教育二级页-弹窗.html</span></a><a href="accountant\3-2-1课程详情页弹窗.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>3-2-1课程详情页弹窗.html</span></a><a href="accountant\3-2课程详情页.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>3-2课程详情页.html</span></a><a href="accountant\3-3-1试听页-单视频.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>3-3-1试听页-单视频.html</span></a><a href="accountant\3-3-2试听页-三分屏视频.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>3-3-2试听页-三分屏视频.html</span></a><a href="accountant\3-3-3试听页-纯文本.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>3-3-3试听页-纯文本.html</span></a><a href="accountant\3-3-4试听页-加载页.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>3-3-4试听页-加载页.html</span></a><a href="accountant\4-1政策法规.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>4-1政策法规.html</span></a><a href="accountant\4-2政策法规-详情页.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>4-2政策法规-详情页.html</span></a><a href="accountant\5-1培训通知.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>5-1培训通知.html</span></a><a href="accountant\5-2培训通知-详情页.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>5-2培训通知-详情页.html</span></a><a href="accountant\6-1帮助中心.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>6-1帮助中心.html</span></a><a href="accountant\6-2帮助中心详情页.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>6-2帮助中心详情页.html</span></a><a href="accountant\7-1关于我们.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>7-1关于我们.html</span></a><a href="accountant\8-1帮助中心.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>8-1帮助中心.html</span></a><a href="accountant\8-2帮助中心列表.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>8-2帮助中心列表.html</span></a><a href="accountant\8-3帮助详情页.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>8-3帮助详情页.html</span></a><a href="accountant\9-1联系我们.html" target="_blank" class="side-item"><span class="app">portal</span><span class="module">accountant</span><span>9-1联系我们.html</span></a></div></div></div></body></html>

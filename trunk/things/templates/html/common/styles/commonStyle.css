@@ -1,0 +1,46 @@
+html, body {
+    font-family: "微软雅黑";
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/**
+chrome 滚动条样式
+*/
+::-webkit-scrollbar-track-piece {
+/ / background-color: red;
+    -webkit-border-radius: 0;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    border: 0;
+    background: #1E6FC5;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: #999;
+    -webkit-border-radius: 4px;
+    outline: 2px solid #fff;
+    outline-offset: -2px;
+    /*border: 2px solid #fff;*/
+}
+
+::-webkit-scrollbar-thumb:hover {
+    height: 50px;
+    background-color: #9f9f9f;
+    -webkit-border-radius: 4px;
+}
